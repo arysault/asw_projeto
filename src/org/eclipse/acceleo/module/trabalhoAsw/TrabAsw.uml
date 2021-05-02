@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-lLiYKaBEeublIRSvT1n2g" name="ASWTRAB">
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_i2aN4KaEEeublIRSvT1n2g" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_a47kgKaFEeublIRSvT1n2g" name="long"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_l_GAoKaFEeublIRSvT1n2g" name="double"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_4hwDgKaFEeublIRSvT1n2g" name="Models">
+    <packagedElement xmi:type="uml:Class" xmi:id="_vQJcoKaCEeublIRSvT1n2g" name="Medico">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_OczQcKaEEeublIRSvT1n2g" name="idMedico" visibility="private" type="_a47kgKaFEeublIRSvT1n2g" isID="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_r3Vb0KaEEeublIRSvT1n2g" name="Name" visibility="private" type="_i2aN4KaEEeublIRSvT1n2g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-roBQKaEEeublIRSvT1n2g" name="Colaborador">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_SXzQ8KaFEeublIRSvT1n2g" name="idCoborador" visibility="private" type="_a47kgKaFEeublIRSvT1n2g"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ipwcgKaFEeublIRSvT1n2g" name="salario" visibility="private" type="_l_GAoKaFEeublIRSvT1n2g"/>
+      <ownedAttribute xmi:id="_zvHlgKaGEeublIRSvT1n2g" aggregation="shared" association="_Ys25EKaGEeublIRSvT1n2g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Ys25EKaGEeublIRSvT1n2g" name="A_colaborador_medico" memberEnd="_lLtmcKaGEeublIRSvT1n2g _zvHlgKaGEeublIRSvT1n2g">
+      <ownedEnd xmi:id="_lLtmcKaGEeublIRSvT1n2g" type="_vQJcoKaCEeublIRSvT1n2g" association="_Ys25EKaGEeublIRSvT1n2g"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
